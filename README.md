@@ -1,8 +1,8 @@
-# Определение наличия Covid-19 
-Простое определение Covid-19 при помощи ансамблевых моделей. 
+# Covid-19 detection 
+Simple detection of Covid-19 using ensemble models.
 
-Результаты:
-Метрика   | Точность
+Results:
+Metrics   | Result
 --------  | ---------
 Accuracy  | 0.9014
 Precision | 0.9449
@@ -10,18 +10,18 @@ Recall    | 0.7584
 F1-score  | 0.8116
 Roc-auc   | 0.7584
 
-## Данные 
-Данные получены при помощи метода вольтамперометрии на электродах eGaIn. Данные записаны в таблицу формата .сsv  
+## Data 
+The data were obtained using the voltammetry method on eGaIn electrodes. The data is written in a table in the .сsv format 
 
 
-# Определение стадии развития болезни (поражение легких)
-Для этого также были взяты ансамблевые модели. 
-Данные были дополнены содержанием микроэлемнтов в крови пациента. 
+# Determination of the stage of development of the disease (lung damage)
+For this, ensemble models were also taken.
+The data were supplemented by the content of trace elements in the patient's blood.
 
-Всего было три класса: слабое, среднее и сильное поражение легких. 
+There were three classes: mild, moderate, and severe lung injury.
 
-Результаты:
-Метрика   | Точность
+Results:
+Metrics   | Result
 --------  | ---------
 Accuracy  | 1.0000
 Precision | 1.0000
@@ -29,4 +29,4 @@ Recall    | 1.0000
 F1-score  | 1.0000
 Roc-auc   | 1.0000
 
-Для того, чтобы запустить интерфейс, распакуйте архив models.zip в папку models/
+To run the interface, unpack the models.zip archive into the folder models/ 
