@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np 
 from catboost import CatBoostClassifier
 
-covid_detect_model = CatBoostClassifier().load_model('covid_model_v2')
-covid_stages_model = CatBoostClassifier().load_model('covid_stage_model')
+covid_detect_model = CatBoostClassifier().load_model('models/covid_model_v2')
+covid_stages_model = CatBoostClassifier().load_model('models/covid_stage_model')
 
 def predictor(path):
     predictions = []
